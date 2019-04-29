@@ -1,0 +1,22 @@
+.attributes-table {
+  tbody {
+    tr {
+      td:first-child {
+        text-align: right;
+        font-weight: bold;
+
+        @extend .col-md-3;
+        @extend .col-sm-2;
+        @extend .col-xs-4;
+
+        position: static;
+        float: none;
+        display: table-cell;
+      }
+    }
+
+    tr:nth-of-type(even) {
+      background-color: #f9f9f9;
+    }
+  }
+}
