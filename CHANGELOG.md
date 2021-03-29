@@ -1,4 +1,8 @@
 # Changelog
+       
+## Version 0.1.2
+
+works with rails 6.1
 
 ## Version 0.1.1
 
