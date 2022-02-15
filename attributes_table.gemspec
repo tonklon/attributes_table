@@ -7,10 +7,10 @@ Gem::Specification.new do |spec|
   spec.name          = "attributes_table"
   spec.version       = AttributesTable::VERSION
   spec.authors       = ["Tobias Klonk"]
-  spec.email         = ["tobias.klonk@tklonk.net"]
+  spec.email         = ["tobias.klonk@wolkenwerk.cloud"]
 
   spec.summary       = %q{A helper to create a localized, bootstrap-styled table of an ActiveModel's attributes}
-  spec.homepage      = "https://github.com/tonklon/attributes_table"
+  spec.homepage      = "https://github.com/wolkenwerk/attributes_table"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
@@ -18,9 +18,9 @@ Gem::Specification.new do |spec|
   if spec.respond_to?(:metadata)
     spec.metadata['allowed_push_host'] = 'https://rubygems.org'
 
-    spec.metadata['bug_tracker_uri'] = 'https://github.com/tonklon/attributes_table/issues'
-    spec.metadata['changelog_uri'] = "https://github.com/tonklon/attributes_table/blob/v#{spec.version}/CHANGELOG.md"
-    spec.metadata['source_code_uri'] = 'https://github.com/tonklon/attributes_table'
+    spec.metadata['bug_tracker_uri'] = 'https://github.com/wolkenwerk/attributes_table/issues'
+    spec.metadata['changelog_uri'] = "https://github.com/wolkenwerk/attributes_table/blob/v#{spec.version}/CHANGELOG.md"
+    spec.metadata['source_code_uri'] = 'https://github.com/wolkenwerk/attributes_table'
   else
     raise "RubyGems 2.0 or newer is required to protect against " \
       "public gem pushes."
