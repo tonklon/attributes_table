@@ -35,10 +35,10 @@ Gem::Specification.new do |spec|
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
 
-  spec.add_dependency 'railties', ['>= 4.1', '< 7.1']
-  spec.add_dependency 'actionpack', ['>= 4.1', '< 7.1']
-  spec.add_dependency 'activemodel', ['>= 4.1', '< 7.1']
-  spec.add_dependency 'activesupport', ['>= 4.1', '< 7.1']
+  spec.add_dependency 'railties'
+  spec.add_dependency 'actionpack'
+  spec.add_dependency 'activemodel'
+  spec.add_dependency 'activesupport'
   spec.add_dependency 'sass-rails'
   spec.add_dependency 'pundit'
 
